@@ -73,7 +73,7 @@ function About() {
       <div className="md:w-1/3 z-10 relative group mb-10 md:mb-0">
         <div className="relative">
           <img
-            src="/nagesh.jpeg"
+            src="/portfolio/nagesh.jpeg"
             alt="Nagesh B C"
             className="rounded-full w-64 h-64 sm:w-72 sm:h-72 object-contain border-4 border-green-500 dark:border-green-400 shadow-xl bg-white"
           />
