@@ -1,13 +1,7 @@
 import React from 'react';
 
 const projects = [
-  {
-    title: 'FormFlow',
-    link: 'https://github.com/CodeFear5/FormFlow',
-    stack: ['React', 'Node.js', 'MongoDB', 'Twilio API'],
-    desc: 'Automated form builder with multilingual support, lead dashboard, and WhatsApp/email follow-ups.',
-    features: ['Multi-language forms', 'Real-time analytics', 'Automated follow-ups', 'Role-based access']
-  },
+ 
   {
     title: 'Complaint Tracker',
     link: 'https://github.com/CodeFear5/Complaint-Tracker',
@@ -16,11 +10,15 @@ const projects = [
     features: ['User/admin dashboards', 'Analytics charts', 'Status tracking', 'Email notifications']
   },
   {
-    title: 'Interview Scheduler',
-    link: 'https://github.com/CodeFear5/Interview-Scheduler',
-    stack: ['Spring MVC', 'JSP', 'MySQL', 'Bootstrap'],
-    desc: 'Schedule and manage interview slots with candidate tracking and role-based dashboards.',
-    features: ['Calendar integration', 'Candidate profiles', 'Reminder system', 'Reporting']
+    title: 'Augment3D Tool – 3D & AR Visualization Platform',
+    link: 'https://github.com/CodeFear5/virtual-world',
+    stack: ['React.js', 'Three.js', 'Firebase'],
+    desc: 'An interactive 3D and AR image viewing platform to enhance visualization and user engagement.',
+    features: [
+      'Optimized 3D model performance',
+      'Smooth rendering',
+      'Efficient asset management'
+    ]
   }
 ];
 

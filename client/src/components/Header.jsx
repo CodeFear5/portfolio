@@ -3,12 +3,14 @@ import { FaSun, FaMoon, FaBars, FaTimes } from 'react-icons/fa';
 
 function Header({ theme, setTheme }) {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
+  const navLinks = ['Home', 'About', 'Projects', 'Contact'];
+
+  // Resume link variable for easy reuse
+  const resumeLink = 'https://drive.google.com/file/d/1GiBD7MX50nh07ERzpF21afGrvtCInNjw/view?usp=sharing';
 
   const toggleTheme = () => {
     setTheme(theme === 'dark' ? 'light' : 'dark');
   };
-
-  const navLinks = ['About', 'Skills', 'Projects', 'Education'];
 
   return (
     <>
@@ -16,11 +18,11 @@ function Header({ theme, setTheme }) {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="flex justify-between items-center h-16">
             {/* Logo */}
-            <a 
-              href="#home" 
+            <a
+              href="#home"
               className="text-2xl font-bold tracking-wider text-green-500 dark:text-green-400 hover:text-green-600 dark:hover:text-green-300 transition-colors"
             >
-               Nagesh B C
+              Nagesh B C
             </a>
 
             {/* Desktop Navigation */}
@@ -35,6 +37,16 @@ function Header({ theme, setTheme }) {
                   <span className="absolute bottom-0 left-0 w-0 h-0.5 bg-green-500 dark:bg-green-400 group-hover:w-full transition-all duration-300"></span>
                 </a>
               ))}
+
+              {/* Resume Button */}
+              <a
+                href={resumeLink}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="px-4 py-2 rounded-md bg-green-500 text-white text-sm font-medium hover:bg-green-600 dark:bg-green-400 dark:hover:bg-green-500 transition-colors"
+              >
+                Resume
+              </a>
             </nav>
 
             {/* Theme Toggle and Mobile Menu Button */}
@@ -82,9 +94,21 @@ function Header({ theme, setTheme }) {
                 {link}
               </a>
             ))}
+
+            {/* Resume Button for mobile */}
+            <a
+              href={resumeLink}
+              target="_blank"
+              rel="noopener noreferrer"
+              onClick={() => setIsMenuOpen(false)}
+              className="block px-3 py-2 rounded-md bg-green-500 text-white text-base font-medium hover:bg-green-600 dark:bg-green-400 dark:hover:bg-green-500 transition-colors"
+            >
+              Resume
+            </a>
           </div>
         </div>
       </header>
+
       {/* Spacer to account for fixed header */}
       <div className="h-16"></div>
     </>

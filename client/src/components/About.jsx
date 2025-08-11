@@ -24,15 +24,15 @@ function About() {
           </span>
         </div>
 
-        <p className="text-base sm:text-lg text-gray-700 dark:text-gray-300 leading-relaxed max-w-2xl">
-          I specialize in backend development using{' '}
-          <span className="font-semibold text-yellow-600 dark:text-yellow-400">Java</span> and{' '}
-          <span className="font-semibold text-yellow-600 dark:text-yellow-400">Spring Boot</span>, and build modern interfaces with{' '}
-          <span className="font-semibold text-cyan-600 dark:text-cyan-400">React</span> and{' '}
-          <span className="font-semibold text-sky-500 dark:text-sky-400">Tailwind CSS</span>.
-          Currently leading the development of{' '}
-          <span className="font-semibold text-green-600 dark:text-green-400">FormFlow</span> and a Complaint Tracker system.
-        </p>
+<p className="text-base sm:text-lg text-gray-700 dark:text-gray-300 leading-relaxed max-w-2xl">
+  I specialize in backend development using{' '}
+  <span className="font-semibold text-yellow-600 dark:text-yellow-400">Java</span> and{' '}
+  <span className="font-semibold text-yellow-600 dark:text-yellow-400">Spring Boot</span>, and build modern interfaces with{' '}
+  <span className="font-semibold text-cyan-600 dark:text-cyan-400">React</span> and{' '}
+  <span className="font-semibold text-sky-500 dark:text-sky-400">Tailwind CSS</span>.
+  Currently deeply exploring the fascinating world of{' '}
+  <span className="font-semibold text-purple-600 dark:text-purple-400">Artificial Intelligence</span>.
+</p>
 
         <p className="text-sm sm:text-base text-gray-600 dark:text-gray-400 leading-relaxed">
           I love designing <span className="text-blue-500 dark:text-blue-300">clean APIs</span>, writing{' '}
