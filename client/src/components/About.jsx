@@ -2,7 +2,11 @@ import React from 'react';
 
 function About() {
   return (
-    <section className="min-h-screen py-20 px-6 flex flex-col-reverse md:flex-row items-center justify-center gap-12 md:gap-16 relative overflow-hidden max-w-6xl mx-auto font-sans">
+    <section
+  id="about"
+  className="min-h-screen py-20 px-6 flex flex-col-reverse md:flex-row items-center justify-center gap-12 md:gap-16 relative overflow-hidden max-w-6xl mx-auto font-sans"
+>
+
       {/* Background Blur Bubbles */}
       <div className="absolute inset-0 overflow-hidden dark:opacity-10 opacity-5">
         <div className="absolute top-1/4 left-1/4 w-32 h-32 rounded-full bg-blue-400 dark:bg-blue-600 filter blur-3xl animate-float"></div>

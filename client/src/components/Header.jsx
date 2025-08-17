@@ -1,9 +1,9 @@
 import { useState } from 'react';
 import { FaSun, FaMoon, FaBars, FaTimes } from 'react-icons/fa';
-
+ 
 function Header({ theme, setTheme }) {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
-  const navLinks = ['Home', 'About', 'Projects', 'Contact'];
+  const navLinks = ['About', 'Projects', 'skills','Education'];
 
   // Resume link variable for easy reuse
   const resumeLink = 'https://drive.google.com/file/d/1GiBD7MX50nh07ERzpF21afGrvtCInNjw/view?usp=sharing';

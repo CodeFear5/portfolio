@@ -6,6 +6,7 @@ import Skills from './components/Skills';
 import Projects from './components/Projects';
 import Education from './components/Education';
 import Footer from './components/Footer';
+
 function App() {
   const [theme, setTheme] = useState('dark');
   useEffect(() => {
